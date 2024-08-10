@@ -6,64 +6,93 @@ A Data Structures and Algorithms Visualizer built with Rust and egui.
 
 This project aims to create an interactive and educational tool for visualizing various data structures and algorithms. Users will be able to select different data structures, apply algorithms, and see the operations animated in real-time.
 
+### Features
+
+- **Interactive UI**: Allows users to select different data structures and algorithms for visualization.
+- **Step-by-Step Visualization**: Displays each step of the algorithm's execution visually.
+- **Customizable Input**: Users can input their own data to see how algorithms perform.
+- **Performance Metrics**: Provides insights into the time and space complexity of algorithms.
+- **Educational Explanations**: Offers detailed explanations of the algorithms and data structures.
+
 ## Current State
 
-- Basic UI setup with egui
-- Array data structure implemented
-- Bubble Sort algorithm visualization (basic implementation)
-
-## End Goals
-
-1. Support multiple data structures:
-   - Array
-   - Linked List
-   - Binary Tree
-   - Graph
-
-2. Implement various algorithms:
-   - Sorting algorithms (Bubble Sort, Quick Sort, Merge Sort)
-   - Search algorithms (Binary Search, Depth-First Search, Breadth-First Search)
-   - Tree traversals (In-order, Pre-order, Post-order)
-   - Graph algorithms (Dijkstra's, A*)
-
-3. Features:
-   - Interactive UI for selecting data structures and algorithms
-   - Step-by-step visualization of algorithm execution
-   - Ability to pause, resume, and reset visualizations
-   - Customizable input for data structures
-   - Performance metrics (time complexity, space complexity)
-   - Educational explanations for each algorithm
+- **UI**: Basic setup with egui.
+- **Data Structures**:
+  - Array: Basic implementation.
+- **Algorithms**:
+  - Bubble Sort: Basic visualization implemented.
+- **Visualization**:
+  - Array Visualization: Basic rendering of array elements.
 
 ## TODO List
 
-- [ ] Implement Linked List data structure and visualization
-- [ ] Implement Binary Tree data structure and visualization
-- [ ] Implement Graph data structure and visualization
-- [ ] Add Quick Sort algorithm
-- [ ] Add Merge Sort algorithm
-- [ ] Implement Binary Search
-- [ ] Implement Depth-First Search for graphs
-- [ ] Implement Breadth-First Search for graphs
-- [ ] Add step-by-step controls (pause, resume, reset, step forward/backward)
-- [ ] Improve animation system for clearer visualization
-- [ ] Add ability to customize input data
-- [ ] Implement performance metrics display
-- [ ] Add educational explanations for each algorithm
-- [ ] Improve UI design and user experience
-- [ ] Add unit tests and integration tests
-- [ ] Create user documentation
+### Data Structures
+- [ ] Implement Linked List data structure.
+- [ ] Implement Binary Tree data structure.
+- [ ] Implement Graph data structure.
+
+### Algorithms
+- [ ] Implement Quick Sort algorithm.
+- [ ] Implement Merge Sort algorithm.
+- [ ] Implement Binary Search.
+- [ ] Implement Depth-First Search for graphs.
+- [ ] Implement Breadth-First Search for graphs.
+- [ ] Implement Tree Traversals (In-order, Pre-order, Post-order).
+- [ ] Implement Graph algorithms (Dijkstra's, A*).
+
+### Visualizations
+- [ ] Enhance Array Visualization:
+  - [ ] Add step-by-step controls (pause, resume, reset).
+  - [ ] Improve animation system for clearer visualization.
+- [ ] Implement Linked List Visualization.
+- [ ] Implement Binary Tree Visualization.
+- [ ] Implement Graph Visualization.
+- [ ] Implement Animations Module:
+  - [ ] Create AnimationManager for controlling visualizations.
+  - [ ] Add methods for starting, stopping, and resetting animations.
+
+### UI/UX
+- [ ] Improve UI design and user experience.
+- [ ] Add user controls for custom input data.
+
+### Utilities
+- [ ] Implement a performance metrics module.
+- [ ] Display time complexity and space complexity for each algorithm.
+
+### Documentation
+- [ ] Add educational explanations for each algorithm.
+- [ ] Improve user documentation.
+- [ ] Add inline code comments for clarity.
+
+### Testing
+- [ ] Add unit tests for data structures.
+- [ ] Add integration tests for algorithms.
+- [ ] Add UI tests for visualization components.
 
 ## Getting Started
 
 1. Ensure you have Rust and Cargo installed on your system.
-2. Clone this repository.
-3. Run `cargo build` to compile the project.
-4. Run `cargo run` to start the application.
+2. Clone this repository:
+   ```sh
+   git clone https://github.com/MunishMummadi/dsa_visualizer.git
+   ```
+3. Navigate to the project directory:
+   ```sh
+   cd dsa_visualizer
+   ```
+4. Build the project:
+   ```sh
+   cargo build
+   ```
+5. Run the application:
+   ```sh
+   cargo run
+   ```
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request with your changes. Be sure to follow the existing coding style and include tests where applicable.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
