@@ -1,10 +1,11 @@
-// Basic implementation of Bubble Sort
-pub fn bubble_sort(data: &mut [i32]) {
-    let n = data.len();
+use crate::data_structures::array::Array;  // Import Array from the ds folder
+
+pub fn bubble_sort(array: &mut Array) {
+    let n = array.data.len();
     for i in 0..n {
         for j in 0..n - i - 1 {
-            if data[j] > data[j + 1] {
-                data.swap(j, j + 1);
+            if array.data[j] > array.data[j + 1] {
+                array.data.swap(j, j + 1);
             }
         }
     }
