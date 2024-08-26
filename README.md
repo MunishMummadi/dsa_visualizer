@@ -24,7 +24,8 @@ This project aims to create an interactive and educational tool for visualizing 
 - **Visualization**:
   - Array Visualization: Basic rendering of array elements.
 
-## TODO List
+<details>
+  <summary>## TODO List</summary>
 
 ### Data Structures
 - [ ] Implement Linked List data structure.
@@ -68,6 +69,7 @@ This project aims to create an interactive and educational tool for visualizing 
 - [ ] Add unit tests for data structures.
 - [ ] Add integration tests for algorithms.
 - [ ] Add UI tests for visualization components.
+</details>
 
 ## Getting Started
 
