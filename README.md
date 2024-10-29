@@ -91,10 +91,6 @@ This project aims to create an interactive and educational tool for visualizing 
    cargo run
    ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request with your changes. Be sure to follow the existing coding style and include tests where applicable.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
